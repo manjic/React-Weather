@@ -18,14 +18,13 @@ var Examples = (props) => {
     		<p>Here a few example locations to try out:</p>
     	  <ol>
     	    <li>
-    	    	<link to='/?location=Leeds'>Leeds</link>
+    	    	<Link to='/?location=Leeds'>Leeds</Link>
     	    </li>
     	    <li>
-    	    	<link to='/?location=London'>London</link>
+    	    	<Link to='/?location=London'>London</Link>
     	    </li>
     	   </ol>  	
     	</div>
-       
     )
 };
     
