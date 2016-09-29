@@ -20,9 +20,11 @@ var React = require('react');
 //  };
 
 // refactor props
-var WeatherMessage = ({temp, location}) => {
+// var WeatherMessage = ({temp, location}) => {
+	var WeatherMessage = ({location, temp}) => {
     return(
-       <h3 className="text-center">Its {temp} degrees in {location}</h3>     
+       // <h3 className="text-center">Its {temp} degrees in {location}</h3>  
+        <h3 className="text-center">It is it {temp}°F in {location}.</h3>   
     )
  };
 
